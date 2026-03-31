@@ -142,9 +142,7 @@ section {
   width: clamp(240px, 40vw, 380px);
   height: auto;
   margin-bottom: 2rem;
-  filter:
-    drop-shadow(0 0 16px rgba(255, 255, 255, 0.15))
-    drop-shadow(0 8px 32px rgba(192, 104, 40, 0.3));
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.4));
 }
 
 .tagline {
