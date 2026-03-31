@@ -122,7 +122,6 @@ section {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 70% 60% at 50% 36%, rgba(255, 255, 255, 0.10) 0%, transparent 70%),
     radial-gradient(ellipse at 25% 40%, rgba(192, 104, 40, 0.09) 0%, transparent 55%),
     radial-gradient(ellipse at 75% 25%, rgba(27, 42, 74, 0.6) 0%, transparent 50%),
     radial-gradient(ellipse at 50% 80%, rgba(192, 104, 40, 0.05) 0%, transparent 40%);
@@ -143,7 +142,9 @@ section {
   width: clamp(240px, 40vw, 380px);
   height: auto;
   margin-bottom: 2rem;
-  filter: drop-shadow(0 8px 32px rgba(192, 104, 40, 0.3));
+  filter:
+    drop-shadow(0 0 16px rgba(255, 255, 255, 0.15))
+    drop-shadow(0 8px 32px rgba(192, 104, 40, 0.3));
 }
 
 .tagline {
